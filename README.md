@@ -12,12 +12,12 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 
 ## Project Theory
 
-[[Back to top]](https://github.com/soumyajit0/Proxy-Server#index)
+[[Back to top]](https://github.com/deepan190703/Proxy-Server#index)
 
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/soumyajit0/Proxy-Server/blob/main/imgs/UML.png)
+![](https://github.com/deepan190703/Proxy-Server/blob/main/imgs/UML.png)
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -60,7 +60,7 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 ## How to Run
 
 ```bash
-$ git clone https://github.com/soumyajit0/Proxy-Server.git
+$ git clone https://github.com/deepan190703/Proxy-Server.git
 $ cd Proxy-Server
 $ make all
 $ ./proxy <port no.>
@@ -72,13 +72,13 @@ $ ./proxy <port no.>
 - To run the proxy without cache Change the name of the file (`proxyServerWithCache.c to proxyServerWithoutCache.c`) MakeFile.
 
 ## Demo
-![](https://github.com/soumyajit0/Proxy-Server/blob/main/imgs/Cache.png)
+![](https://github.com/deepan190703/Proxy-Server/blob/main/imgs/Cache.png)
 - When website is opened for the first time (`url not found`) then cache will be miss.
 - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
 
 ## Contributing
 
-[[Back to top]](https://github.com/soumyajit0/Proxy-Server#index)
+[[Back to top]](https://github.com/deepan190703/Proxy-Server#index)
 
 Feel free to add some useful. You can see `How this code can be extended`. Use ideas from there and feel free to fork and CHANGE. 
 
